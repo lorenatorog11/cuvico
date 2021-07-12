@@ -690,15 +690,26 @@ body{
     max-width: 120px;
   }
 }
+@media (max-width: 1421px) {
+  .titleThreeLight{
+    font-size: 76px;
+  }
+}
 @media (max-width: 1000px){
   .quotationMark{
     width: 100%;
     max-width: 90px;
+  }
+  .titleThreeLight{
+    font-size: 65px;
   }
 }
 @media (max-width: 900px){
   .quotationMark{
     width: 100%;
     max-width: 60px;
+  }
+  .titleThreeLight{
+    font-size: 40px;
   }
 }
