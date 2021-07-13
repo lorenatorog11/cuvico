@@ -283,6 +283,7 @@ body{
   margin-top: 100px;
   position: relative;
   height: calc(100vh - 100px);
+  max-height:712px;
 }
 .imageInicialPage{
   width: 100%;
@@ -547,6 +548,7 @@ body{
 }
 .sectionSixComprarTextTwo{
   padding: 50px 80px;
+  z-index: 2;
 }
 .sectionSixComprarTextTwo p{
   width: 80%;
@@ -574,6 +576,9 @@ body{
 }
 .cardImage img{
   border-radius: 206px;
+}
+.cardSectionSevenInicialPage{
+  padding: 0 60px;
 }
 .cardSectionSevenInicialPage .imageBackgroundCard{
   width: 100%;
@@ -695,6 +700,98 @@ body{
     font-size: 76px;
   }
 }
+@media (max-width: 1250px){
+  .containerElements{
+    padding-left: 88px;
+    margin: 10vh 0;
+  }
+  .containerElements .arrow{
+    left: 22px;
+    width: 34px;
+  }
+  .containerElements{
+    width: 45%;
+  }
+  .sectionQuestions {
+    margin: 100px 88px;
+  }
+  .sectionQuestions .colOne .titleColOne {
+    left: -75px;
+    width: 194%;
+  }  
+  .titleFiveLight{
+    letter-spacing: 3px;
+  }
+  .sectionQuestions .colOne {
+    padding-top: 70px;
+  }
+  .titleColTwo {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .sectionFigure img {
+    right: -23%;
+    height: 305px;
+  }
+  .containerElementsTwo {
+    padding: 30px 34px 28px 20%;
+  }  
+  .backgroundSection h1{
+    font-size: 200px;
+  }
+  .titleOnesectionFour {
+    margin-left: -27px;
+  }
+  .titleTwosectionFour {
+    margin-left: 32px;
+  }
+  .sectionSixComprarTextOne {
+    padding-left: 13%;
+    contain: content;
+  }
+  .imageProduct {
+    width: 100%;
+  }
+  .sectionSixComprarImagen .imageProduct{
+    width: 100%;
+    height: auto;
+  }
+  .sectionSixComprarImagen .imageBackgroundProduct {
+    width: 80%;
+    height: auto;
+  }
+  .sectionSixComprarTextTwo {
+    padding: 70px 96px;
+    padding-right: 70px;
+  }
+  .sectionSixComprarTextTwo p{
+    width: 100%;
+  }
+  .cardSectionSevenInicialPage {
+    padding: 0 30px;
+  }
+  .divSectionNineInicialPage {
+    margin: 0px 88px;
+  }
+  .contentFooter {
+    margin: 0px 88px;
+  }
+}
+@media (max-width: 1155px){
+  .containerElementsSquareTwo {
+    left: 13%;
+  }
+}
+@media (max-width: 1155px){
+  .containerElementsSquareTwo {
+    left: 14%;
+  }
+}
+@media (max-width: 1080px){
+  .containerElementsSquareTwo {
+    left: 15%;
+  }
+}
 @media (max-width: 1000px){
   .quotationMark{
     width: 100%;
@@ -703,13 +800,104 @@ body{
   .titleThreeLight{
     font-size: 65px;
   }
+  .containerElements{
+    width: 45%;
+  }
+  .sectionQuestions .colOne .titleColOne {
+    left: -74px;
+    width: 173%;
+  }
+  .titleFiveLight {
+    letter-spacing: 2px;
+  }
+  .containerElementsTwo .eye {
+    width: 55px;
+  }
+  .sectionFourInicialPage .textSection p {
+    width: 67%;
+    text-align: center;
+  }
+  .linkLineFooter {
+    font-size: 12px;
+  } 
 }
-@media (max-width: 900px){
+@media (max-width: 948px){
+  .containerElementsSquareTwo {
+    left: 16%;
+  }
+}
+@media (max-width: 914px){
   .quotationMark{
     width: 100%;
     max-width: 60px;
   }
   .titleThreeLight{
     font-size: 40px;
+  }
+  .linkLineNav{
+    font-size: 14px;
+  }
+  .linkOrange {
+    font-size: 12px;
+  }
+  .containerElements {
+    padding-left: 60px;
+    margin: 7vh 0;
+  }
+  .containerElements {
+    width: 50%;
+  }
+  .containerElements .arrow {
+    left: 14px;
+    width: 30px;
+  }
+  .sectionQuestions {
+    margin: 80px 60px;
+  }
+  .sectionQuestions .colOne .titleColOne {
+    left: -54px;
+  }
+  .titleFiveLight {
+    letter-spacing: 1px;
+  }
+  .sectionFigure img {
+    height: 275px;
+  }
+  .sectionQuestions .colOne {
+    padding-top: 50px;
+  }
+  .backgroundSection h1 {
+    font-size: 150px;
+  }
+  .titleOnesectionFour {
+    margin-left: -18px;
+  }
+  .titleTwosectionFour {
+    margin-left: 18px;
+  }
+  .sectionSixComprarTextTwo {
+    padding: 80px 96px;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+  .sectionSixComprarTextOne .arrowTwo {
+    width: 122px;
+  }
+  .cardSectionSevenInicialPage {
+    padding: 0 15px;
+  }
+  .divSectionNineInicialPage {
+    margin: 0px 60px;
+  }
+  .contentFooter {
+    margin: 0px 66px;
+  }
+  .footerInicialPage .contentFooter ul{
+    padding-left: 2px;
+  }
+}
+@media (max-width: 900px){
+  .containerElementsSquareTwo {
+    left: 18%;
   }
 }

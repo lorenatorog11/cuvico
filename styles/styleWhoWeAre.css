@@ -92,3 +92,64 @@
   background-color: #E7E7E7;
   border-radius: 34px;
 }
+@media (max-width: 1250px){
+  .backgroundSectionWWA h1{
+    font-size: 200px;
+  }
+  .sectionOneWhoWeAre .textSectionPersonImageWWA {
+    padding: 2% 88px;
+  }
+  .sectionOneWhoWeAre .imageSectionPersonImageWWA {
+    padding-left: 88px;
+  }
+  .sectionOneWhoWeAre .sectionPersonVideoWWA{
+    padding: 0% 88px;
+  }
+  .sectionOneWhoWeAre {
+    margin: 90px auto;
+    margin-top: 110px;
+  }
+  .personImageOneWWA {
+    max-width: 260px;
+  }
+}
+@media (max-width: 1000px){
+  .sectionOneWhoWeAre .textSectionWWA .textSectionWWA {
+    width: 67%;
+  }
+  .sectionOneWhoWeAre .textSectionPersonImageWWA p {
+    width: 100%;
+  }
+  .sectionOneWhoWeAre .imageSectionPersonImageWWA p {
+    width: 100%;
+  }
+  .sectionOneWhoWeAre {
+    margin: 70px auto;
+    margin-top: 110px;
+  }
+}
+@media (max-width: 914px){
+  .backgroundSectionWWA h1{
+    font-size: 150px;
+  }
+  .titleOnesectionFourWWA {
+    margin-left: -12px;
+  }
+  .sectionOneWhoWeAre .textSectionPersonImageWWA {
+    padding: 2% 60px;
+    padding-left: 30px;
+  }
+  .sectionOneWhoWeAre .imageSectionPersonImageWWA {
+    padding-left: 60px;
+  }
+  .sectionOneWhoWeAre .sectionPersonVideoWWA{
+    padding: 0% 60px;
+  }
+  .sectionOneWhoWeAre {
+    margin: 40px auto;
+    margin-top: 110px;
+  }
+  .personImageOneWWA {
+    max-width: 240px;
+  }
+}
