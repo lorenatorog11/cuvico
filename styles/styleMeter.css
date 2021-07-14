@@ -57,6 +57,10 @@
 .btnContain{
   margin-top: 3%;
 }
+.linkBtnArrow{
+  color: transparent;
+  text-decoration: none;
+}
 @media (max-width: 1440px) {
   .sectionInternOnePageMeter {
     width: 90%;
