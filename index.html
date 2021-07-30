@@ -14,25 +14,28 @@
   <title>Cuvico web</title>
 </head>
 <body>
-  <nav class="nav d-flex justify-content-center">
-    <div class="mx-4 d-flex align-items-center w-100">
-      <div class="col-2">
-        <a href="/"><img class="logoNavBar w-100" src="images/logo2.png" alt="logo"/></a>
-      </div>
-      <ul class="col-6 d-flex align-items-center justify-content-around m-0">
-        <li class="d-flex justify-content-center mx-2"><a class="linkLineNav text-center" href="#">Pilares</a></li>
-        <li class="d-flex justify-content-center mx-2"><a class="linkLineNav text-center" href="/pageWhoWeAre.html">Quienes somos</a></li>
-        <li class="d-flex justify-content-center mx-2"><a class="linkLineNav text-center" href="#">Testimonios</a></li>
-        <li class="d-flex justify-content-center mx-2"><a class="linkLineNav text-center" href="#">Contactenos</a></li>
-      </ul>
-      <div class="col-2 d-flex justify-content-end" id="divSearch">
-        <img class="search" id="search" src="images/search.png" alt="buscador"/>
-        <div class="searchDivInput searchDivInputShow align-items-center" id="searchDivInput">        
-          <input class="searchInput border-0 w-100 h-90" type="text" placeholder="Search item"/>
-          <hr class="hrSearch"/>
+  <nav class="navbar navbar-expand-md nav w-100 d-flex justify-content-center">
+    <div class="container-fluid px-4 d-flex align-items-center div-nav">
+      <button class="navbar-toggler col-2 button-navbar-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="navbar-toggler-icon fas fa-bars d-flex m-auto justify-content-center align-items-center"></i>
+      </button>
+      <a class="col-5 col-md-2" href="/"><img class="logoNavBar w-100" src="images/logo2.png" alt="logo"/></a>
+      <div class="order-1 col-md-6 collapse col-auto navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav col-12 col-md-8 col-lg-9 d-flex align-items-center justify-content-around m-0">
+          <li class="nav-item nav-items-li d-flex justify-content-center mx-2"><a class="linkLineNav text-center w-100" href="#">Pilares</a></li>
+          <li class="nav-item nav-items-li d-flex justify-content-center mx-2"><a class="linkLineNav text-center w-100" href="/pageWhoWeAre.html">Quienes somos</a></li>
+          <li class="nav-item nav-items-li d-flex justify-content-center mx-2"><a class="linkLineNav text-center w-100" href="#">Testimonios</a></li>
+          <li class="nav-item nav-items-li d-flex justify-content-center mx-2"><a class="linkLineNav text-center w-100" href="#">Contactenos</a></li>
+        </ul>
+        <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-end" id="divSearch">
+          <img class="search" id="search" src="images/search.png" alt="buscador"/>
+          <div class="searchDivInput searchDivInputShow align-items-center" id="searchDivInput">        
+            <input class="searchInput border-0 w-100 h-90" type="text" placeholder="Search item"/>
+            <hr class="hrSearch"/>
+          </div>
         </div>
       </div>
-      <div class="col-2 d-flex justify-content-center px-2">
+      <div class="order-md-3 col-4 col-md-2 d-flex justify-content-center px-2">
         <a href="/pageOneCultureMeter.html"><button class="linkOrange btnSec">Medidor de cultura</button></a>
       </div>
     </div>
@@ -51,10 +54,13 @@
     </div>
   </section>
   <section class="sectionTwoInicialPage w-100">
-    <div class="sectionQuestions d-flex">
-      <div class="col-6 colOne">
-        <h4 class="titleFiveLight titleColOne">CULTURA VIDA. &nbsp;&nbsp; CULTURA VIDA. &nbsp;&nbsp; CULTURA VIDA.&nbsp;&nbsp; CULTURA VIDA.&nbsp;&nbsp; CULTURA VIDA.&nbsp;&nbsp; CULTURA VIDA.</h4>
-        <div class="p-2 px-3 my-5">
+    <h4 class="titleFiveLight titleColOne">CULTURA VIDA. &nbsp;&nbsp; CULTURA VIDA. &nbsp;&nbsp; CULTURA VIDA.&nbsp;&nbsp; CULTURA VIDA.&nbsp;&nbsp; CULTURA VIDA.&nbsp;&nbsp; CULTURA VIDA.</h4>
+    <div class="sectionQuestions d-flex flex-column">
+      
+      <h1 class="titleOneRegular titleColTwo text-end">Transforme<br/> su cultura, transforme<br/> sus resultados</h1>
+      <img class="sectionFigure" src="images/figureSectionTwo.png" alt="Figura"/>
+      <div class="colOne d-flex flex-wrap">
+        <div class="col-12 col-md-6 p-2 px-3 my-0">
           <img class="imageQuestionOne w-100" src="images/imageQuestionOne.png" alt="Imagen pregunta uno"/>
           <div class="pt-3 d-flex">
             <div class="col-1">
@@ -67,7 +73,20 @@
             </div>
           </div>
         </div>
-        <div class="p-2 px-3 my-5">
+        <div class="col-12 col-md-6 p-2 px-3 my-md-5 my-0">
+          <img class="imageQuestionOne w-100" src="images/imageQuestionTwo.png" alt="Imagen pregunta uno"/>
+          <div class="pt-3 d-flex">
+            <div class="col-1">
+              <h1 class="titleOneRegular text-center">2</h1>
+            </div>
+            <div class="col-11 contentQuestion">
+              <h2 class="titleTwoLight my-2">Cultura y resultado como complemento</h2>
+              <p class="pBig pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis urna, tempor sit amet mi sed, imperdiet sagittis lorem.</p>
+              <div class="d-flex pt-3"><a class="linkLine  d-flex">Arrow content link</a><i class="fas fa-chevron-right iconArrowOne searchArrowLink"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-2 px-3 my-0">
           <img class="imageQuestionOne w-100" src="images/imageQuestionThree.png" alt="Imagen pregunta tres"/>
           <div class="pt-3 d-flex">
             <div class="col-1">
@@ -80,7 +99,20 @@
             </div>
           </div>
         </div>
-        <div class="p-2 px-3 my-5">
+        <div class="col-12 col-md-6 p-2 px-3 my-md-5 my-0">
+          <img class="imageQuestionOne w-100" src="images/imageQuestionFour.png" alt="Imagen pregunta tres"/>
+          <div class="pt-3 d-flex">
+            <div class="col-1">
+              <h1 class="titleOneRegular text-center">4</h1>
+            </div>
+            <div class="col-11 contentQuestion">
+              <h2 class="titleTwoLight my-2">Cultura vida como motor de crecimiento exponencial</h2>
+              <p class="pBig pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis urna, tempor sit amet mi sed, imperdiet sagittis lorem.</p>
+              <div class="d-flex pt-3"><a class="linkLine  d-flex">Arrow content link</a><i class="fas fa-chevron-right iconArrowOne searchArrowLink"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-2 px-3 my-0">
           <img class="imageQuestionOne w-100" src="images/imageQuestionFive.png" alt="Imagen pregunta cinco"/>
           <div class="pt-3 d-flex">
             <div class="col-1">
@@ -94,42 +126,10 @@
           </div>
         </div>
       </div>
-      <div class="col-6">
-        <h1 class="titleOneRegular titleColTwo text-end">Transforme<br/> su cultura, transforme<br/> sus resultados</h1>
-        <div class="p-2 px-3 my-5">
-          <img class="imageQuestionOne w-100" src="images/imageQuestionTwo.png" alt="Imagen pregunta uno"/>
-          <div class="pt-3 d-flex">
-            <div class="col-1">
-              <h1 class="titleOneRegular text-center">2</h1>
-            </div>
-            <div class="col-11 contentQuestion">
-              <h2 class="titleTwoLight my-2">Cultura y resultado como complemento</h2>
-              <p class="pBig pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis urna, tempor sit amet mi sed, imperdiet sagittis lorem.</p>
-              <div class="d-flex pt-3"><a class="linkLine  d-flex">Arrow content link</a><i class="fas fa-chevron-right iconArrowOne searchArrowLink"></i></div>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 px-3 my-5">
-          <img class="imageQuestionOne w-100" src="images/imageQuestionFour.png" alt="Imagen pregunta tres"/>
-          <div class="pt-3 d-flex">
-            <div class="col-1">
-              <h1 class="titleOneRegular text-center">4</h1>
-            </div>
-            <div class="col-11 contentQuestion">
-              <h2 class="titleTwoLight my-2">Cultura vida como motor de crecimiento exponencial</h2>
-              <p class="pBig pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis urna, tempor sit amet mi sed, imperdiet sagittis lorem.</p>
-              <div class="d-flex pt-3"><a class="linkLine  d-flex">Arrow content link</a><i class="fas fa-chevron-right iconArrowOne searchArrowLink"></i></div>
-            </div>
-          </div>
-        </div>
-        <div class="sectionFigure">
-          <img class="w-100" src="images/figureSectionTwo.png" alt="Figura"/>
-        </div>
-      </div>
     </div>
   </section>
-  <section class="sectionThreeInicialPage d-flex w-100">
-    <div class="col-6 containerOneSectionThree">
+  <section class="sectionThreeInicialPage d-flex flex-wrap w-100">
+    <div class="col-12 col-md-6 containerOneSectionThree">
       <div class="containerElementsTwo h-100">
         <div class="containerElementsSquareOne"></div>
         <div class="containerElementsSquareTwo"></div>
@@ -140,7 +140,7 @@
         <a class="linkOrangeMedium">Simple action</a>
       </div>
     </div>
-    <div class="col-6 containerTwoSectionThree">
+    <div class="col-12 col-md-6 containerTwoSectionThree">
       <img class="w-100 h-100" src="images/imageVideo.png" alt="Imagen video"/>
       <div class="w-100 h-100 containerTwoSectionThreeBackground"></div>
       <div class="divPlayTwo"></div>
@@ -157,20 +157,20 @@
       <img class="logoSectiónFour py-3" src="images/logo3.png" alt="Loco Cultura Vida"/>
       <h3 class="placeholderOne py-2">Lorem ipsum</h3>
       <p class="titleLightItalic mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis urna, tempor sit amet mi sed, imperdiet sagittis lorem. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent.</p>
-      <div class="sectionPersonImage d-flex mt-5">
-        <div class="containerPersonImage col-4 d-flex flex-column align-items-center px-5">
+      <div class="sectionPersonImage d-flex flex-wrap mt-5">
+        <div class="containerPersonImage col-12 col-md-4 d-flex flex-column align-items-center px-5">
           <img class="personImage" src="images/personImageOne.png" alt="Imagen persona"/>
           <h2 class="titleTwoLight my-3 text-center">Juan Piedrahita</h2>
           <p class="pBig w-100 textPersonImage">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis urna, tempor sit amet mi sed, imperdiet sagittis lorem. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent.</p>
           <img class="ellipsis" src="images/ellipsis.png" alt="Puntos suspensivos"/>
         </div>
-        <div class="containerPersonImage col-4 d-flex flex-column align-items-center px-5">
+        <div class="containerPersonImage col-12 col-md-4 d-flex flex-column align-items-center px-5">
           <img class="personImage" src="images/personImageTwo.png" alt="Imagen persona"/>
           <h2 class="titleTwoLight my-3 text-center">Maribel Gonzales</h2>
           <p class="pBig w-100 textPersonImage">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis urna, tempor sit amet mi sed, imperdiet sagittis lorem. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent.</p>
           <img class="ellipsis" src="images/ellipsis.png" alt="Puntos suspensivos"/>
         </div>
-        <div class="containerPersonImage col-4 d-flex flex-column align-items-center px-5">
+        <div class="containerPersonImage col-12 col-md-4 d-flex flex-column align-items-center px-5">
           <img class="personImage" src="images/personImageThree.png" alt="Imagen persona"/>
           <h2 class="titleTwoLight my-3 text-center">Andrés Rodriguez</h2>
           <p class="pBig w-100 textPersonImage">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis urna, tempor sit amet mi sed, imperdiet sagittis lorem. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent.</p>
@@ -303,5 +303,6 @@
   </footer>
   <!-- https://xd.adobe.com/view/bd1bc032-68b6-4ac8-b6d2-0cb20ab52883-e848/ -->
 <script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
