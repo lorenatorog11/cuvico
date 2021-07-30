@@ -510,9 +510,11 @@ body{
   margin-left: 8%;
 }
 .sectionSixComprarContents {
-  max-width: 1920px;
+  max-width: 1440px;
   margin: auto;
   height: 100%;
+  position: relative;
+  padding: 0 160px;
 }
 .sectionSixComprar{
   position: relative;
@@ -520,7 +522,7 @@ body{
 }
 .sectionSixComprarBackground {
   position: absolute;
-  top: 30px;
+  top: 50px;
   right: 0;
   width: 70%;
   height: 395px;
@@ -529,36 +531,33 @@ body{
   z-index: -1;
 }
 .sectionSixComprarTextOne{
-  padding-left: 20%;
+  padding: 0 20% 0 5%;
+  z-index: 2;
 }
 .sectionSixComprarTextOne .arrowTwo{
   width: 168px;
   height: 9px;
 }
-.sectionSixComprarImagen{
-  position: relative;
-  padding: 0px 10px;
-}
-.sectionSixComprarImagen .imageProduct{
-  position: relative;
+.sectionSixComprarContents .imageProduct{
+  position: absolute;
   width: 267px;
   height: 376px;
-  z-index: 2;
   border-radius: 34px;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  top: 0;
 }
-.sectionSixComprarImagen .imageBackgroundProduct{
-  position: relative;
-  top: -115px;
-  left: 115px;
+.sectionSixComprarContents .imageBackgroundProduct{
+  position: absolute;
+  top: 0;
+  left: 50%;
   width: 231px;
   height: 231px;
+  transform: translate(0%, 100%);
 }
 .sectionSixComprarTextTwo{
-  padding: 50px 80px;
+  padding-left: 24%;
   z-index: 2;
-}
-.sectionSixComprarTextTwo p{
-  width: 80%;
 }
 
 /* sectionSevenInicialPage */
@@ -706,6 +705,9 @@ body{
   .titleThreeLight{
     font-size: 76px;
   }
+  .sectionSixComprarTextOne .arrowTwo{
+    width: 130px;
+  }
 }
 @media (max-width: 1250px){
   .containerElements{
@@ -745,9 +747,11 @@ body{
   .titleTwosectionFour {
     margin-left: 32px;
   }
+  .sectionSixComprarContents {
+    padding: 0px 100px;
+  }
   .sectionSixComprarTextOne {
-    padding-left: 13%;
-    contain: content;
+    padding-left: 3%;
   }
   .imageProduct {
     width: 100%;
@@ -761,11 +765,7 @@ body{
     height: auto;
   }
   .sectionSixComprarTextTwo {
-    padding: 70px 96px;
-    padding-right: 70px;
-  }
-  .sectionSixComprarTextTwo p{
-    width: 100%;
+    padding-left: 26%;
   }
   .cardSectionSevenInicialPage {
     padding: 0 30px;
@@ -781,10 +781,14 @@ body{
   .containerElementsSquareTwo {
     left: 13%;
   }
-}
-@media (max-width: 1155px){
-  .containerElementsSquareTwo {
-    left: 14%;
+  .sectionSixComprarContents {
+    padding: 0px 90px;
+  }
+  .sectionSixComprarTextOne {
+    padding-left: 0;
+  }
+  .sectionSixComprarTextTwo {
+    padding-left: 30%;
   }
 }
 @media (max-width: 1080px){
@@ -816,10 +820,27 @@ body{
   .linkLineFooter {
     font-size: 12px;
   } 
+  .sectionSixComprarContents {
+    padding: 0px 48px;
+  }
+  .sectionSixComprarTextOne .arrowTwo {
+    width: 120px;
+  }
 }
 @media (max-width: 948px){
   .containerElementsSquareTwo {
     left: 16%;
+  }
+  .sectionSixComprarTextOne .arrowTwo {
+    width: 85px;
+  }
+  .sectionSixComprarContents .imageProduct {
+    width: 248px;
+    height: 355px;
+  }
+  .sectionSixComprarContents .imageBackgroundProduct {
+    width: 190px;
+    height: 200px;
   }
 }
 @media (max-width: 914px){
@@ -867,14 +888,6 @@ body{
   }
   .titleTwosectionFour {
     margin-left: 18px;
-  }
-  .sectionSixComprarTextTwo {
-    padding: 80px 96px;
-    padding-right: 50px;
-    padding-top: 20px;
-  }
-  .sectionSixComprarTextOne .arrowTwo {
-    width: 122px;
   }
   .cardSectionSevenInicialPage {
     padding: 0 15px;
@@ -949,6 +962,9 @@ body{
     max-height: 600px;
     min-height: 561px;
   }
+  .containerElements {
+    margin: 13vh 0;
+  }
   .sectionQuestions {
     margin: 5px 40px;
     padding-bottom: 131px;
@@ -998,5 +1014,100 @@ body{
   }
   .titleTwosectionFour {
     margin-left: -6%;
+  }
+  .sectionFourInicialPage {
+    padding-bottom: 40px;
+  }
+  .sectionSixComprarContents {
+    padding: 0px 48px;
+  }
+  .sectionSixComprarTextOne {
+    padding: 0 15%;
+  }
+  .sectionSixComprarTextOne div {
+    padding-right: 20%;
+  }
+  .sectionSixComprarTextOne .arrowTwo {
+    width: 125px;
+  }
+  .sectionSixComprarContents .imageProduct {
+    position: absolute;
+    width: 170px;
+    height: 206px;
+    border-radius: 34px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 30%;
+  }
+  .sectionSixComprarContents .imageBackgroundProduct {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    width: 110px;
+    height: 110px;
+    transform: translate(0%, 100%);
+  }
+  .sectionSixTitle .titleFiveLight{
+    text-align: justify;
+    margin-left: 2%;
+  }
+  .sectionSixComprarTextTwo {
+    padding-left: 30%;
+  }
+  .sectionSevenInicialPage h1 {
+    margin-right: 40px;
+    text-align: end;
+  }
+  .divSectionNineInicialPage {
+    margin: 0px 40px;
+  }
+  .sectionNineInicialPage .divForm {
+    width: 80%;
+  }
+  .contentFooter {
+    margin: 0px 40px;
+    padding: 40px 0px;
+  }
+  .sectionFiveInicialPage:hover .imageVideoTwo {
+    border-width: 20px 30px;
+  }
+}
+@media (max-width: 587px){
+  .sectionSixComprarTextOne {
+    padding: 0;
+  }
+  .sectionSixComprarTextTwo {
+    padding-left: 10%;
+  }
+  .sectionNineInicialPage .divForm {
+    width: 90%;
+  }
+}
+@media (max-width: 400px){
+  .sectionSixComprarContents .imageProduct {
+    position: absolute;
+    width: 100px;
+    height: 140px;
+    border-radius: 34px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 37%;
+  }
+  .sectionSixComprarContents .imageBackgroundProduct {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translate(0%, 100%);
+  }
+  .sectionSixComprarTextOne .arrowTwo {
+    width: 100px;
+  }
+  .sectionNineInicialPage .divForm {
+    width: 100%;
+  }
+  .sectionFiveInicialPage:hover .imageVideoTwo {
+    border-width: 10px 20px;
   }
 }
