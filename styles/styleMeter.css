@@ -1,7 +1,6 @@
 /* sectionOnePageMeter */
 .sectionOnePageMeter{
-  height: 100vh;
-  padding-top: 100px;
+  height: calc(100vh - 105px);
   position: relative;
   contain: content;
 }
@@ -38,6 +37,7 @@
 .imageMeter{
   width: 40vh;
   max-width: 366px;
+  min-width: 260px;
 }
 .divPogress{
   width: 80%;
@@ -78,6 +78,11 @@
     width: 90%;
     max-width: 700px;
     margin-top: 1%;
+  }
+}
+@media (max-width: 767px){
+  .sectionOnePageMeter {
+    height: calc(100vh - 90px);
   }
 }
 @media (max-height: 600px) {

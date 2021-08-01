@@ -901,6 +901,9 @@ body{
   .footerInicialPage .contentFooter ul{
     padding-left: 2px;
   }
+  .sectionTwoInicialPage .titleColOne {
+    left: 11px;
+  }
 }
 @media (max-width: 900px){
   .containerElementsSquareTwo {

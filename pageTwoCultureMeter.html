@@ -15,26 +15,29 @@
   <title>Cuvico web</title>
 </head>
 <body>
-  <nav class="nav d-flex justify-content-center">
-    <div class="mx-4 d-flex align-items-center w-100">
-      <div class="col-2">
-        <a href="/"><img class="logoNavBar w-100" src="images/logo2.png" alt="logo"/></a>
-      </div>
-      <ul class="col-6 d-flex align-items-center justify-content-around m-0">
-        <li class="d-flex justify-content-center mx-2"><a class="linkLineNav text-center" href="#">Pilares</a></li>
-        <li class="d-flex justify-content-center mx-2"><a class="linkLineNav text-center" href="/pageWhoWeAre.html">Quienes somos</a></li>
-        <li class="d-flex justify-content-center mx-2"><a class="linkLineNav text-center" href="#">Testimonios</a></li>
-        <li class="d-flex justify-content-center mx-2"><a class="linkLineNav text-center" href="#">Contactenos</a></li>
-      </ul>
-      <div class="col-2 d-flex justify-content-end" id="divSearch">
-        <img class="search" id="search" src="images/search.png" alt="buscador"/>
-        <div class="searchDivInput searchDivInputShow align-items-center" id="searchDivInput">        
-          <input class="searchInput border-0 w-100 h-90" type="text" placeholder="Search item"/>
-          <hr class="hrSearch"/>
+  <nav class="navbar navbar-expand-md nav w-100 d-flex justify-content-center">
+    <div class="container-fluid px-4 d-flex align-items-center div-nav">
+      <button class="navbar-toggler col-2 button-navbar-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="navbar-toggler-icon fas fa-bars d-flex m-auto justify-content-center align-items-center"></i>
+      </button>
+      <a class="col-5 col-md-2" href="/"><img class="logoNavBar w-100" src="images/logo2.png" alt="logo"/></a>
+      <div class="order-1 col-md-6 collapse col-auto navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav col-12 col-md-8 col-lg-9 d-flex align-items-center justify-content-around m-0">
+          <li class="nav-item nav-items-li d-flex justify-content-center mx-2"><a class="linkLineNav text-center w-100" href="#">Pilares</a></li>
+          <li class="nav-item nav-items-li d-flex justify-content-center mx-2"><a class="linkLineNav text-center w-100" href="/pageWhoWeAre.html">Quienes somos</a></li>
+          <li class="nav-item nav-items-li d-flex justify-content-center mx-2"><a class="linkLineNav text-center w-100" href="#">Testimonios</a></li>
+          <li class="nav-item nav-items-li d-flex justify-content-center mx-2"><a class="linkLineNav text-center w-100" href="#">Contactenos</a></li>
+        </ul>
+        <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-end" id="divSearch">
+          <img class="search" id="search" src="images/search.png" alt="buscador"/>
+          <div class="searchDivInput searchDivInputShow align-items-center" id="searchDivInput">        
+            <input class="searchInput border-0 w-100 h-90" type="text" placeholder="Search item"/>
+            <hr class="hrSearch"/>
+          </div>
         </div>
       </div>
-      <div class="col-2 d-flex justify-content-center px-2">
-        <button class="linkOrange btnPri">Medidor de cultura</button>
+      <div class="order-md-3 col-4 col-md-2 d-flex justify-content-center px-2">
+        <a href="/pageOneCultureMeter.html"><button class="linkOrange btnPri">Medidor de cultura</button></a>
       </div>
     </div>
   </nav>
@@ -63,5 +66,6 @@
     </div>
   </section>
 <script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
